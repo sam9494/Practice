@@ -5,3 +5,10 @@ c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.
 c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.csproj.CoreCompileInputs.cache
 c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.exe
 c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.pdb
+C:\Users\sam.chong62\Desktop\LINQP\Practice\LINQPratice\LINQPratice\bin\Debug\LINQPratice.exe.config
+C:\Users\sam.chong62\Desktop\LINQP\Practice\LINQPratice\LINQPratice\bin\Debug\LINQPratice.exe
+C:\Users\sam.chong62\Desktop\LINQP\Practice\LINQPratice\LINQPratice\bin\Debug\LINQPratice.pdb
+C:\Users\sam.chong62\Desktop\LINQP\Practice\LINQPratice\LINQPratice\obj\Debug\LINQPratice.csprojResolveAssemblyReference.cache
+C:\Users\sam.chong62\Desktop\LINQP\Practice\LINQPratice\LINQPratice\obj\Debug\LINQPratice.csproj.CoreCompileInputs.cache
+C:\Users\sam.chong62\Desktop\LINQP\Practice\LINQPratice\LINQPratice\obj\Debug\LINQPratice.exe
+C:\Users\sam.chong62\Desktop\LINQP\Practice\LINQPratice\LINQPratice\obj\Debug\LINQPratice.pdb
