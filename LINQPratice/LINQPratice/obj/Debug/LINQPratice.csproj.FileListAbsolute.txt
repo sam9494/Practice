@@ -1,0 +1,7 @@
+c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\bin\Debug\LINQPratice.exe.config
+c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\bin\Debug\LINQPratice.exe
+c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\bin\Debug\LINQPratice.pdb
+c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.csprojResolveAssemblyReference.cache
+c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.csproj.CoreCompileInputs.cache
+c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.exe
+c:\users\sam.chong62\source\repos\LINQPratice\LINQPratice\obj\Debug\LINQPratice.pdb
