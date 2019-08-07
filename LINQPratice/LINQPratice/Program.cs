@@ -19,22 +19,7 @@ namespace LINQPratice
         }
         static void Main(string[] args)
         {
-            var numberStringLookup = new Dictionary<string, int>()
-            {
-                {"zero", 0},
-                {"one", 1},
-                {"two", 2},
-                {"three", 3},
-                {"four", 4},
-                {"five", 5},
-                {"six", 6},
-                {"seven", 7},
-                {"eight", 8},
-                {"nine", 9}
-            };
-
             
-
             //Case
             int[] numArray = {5, 4, 3, 6, 1};
             
@@ -50,11 +35,24 @@ namespace LINQPratice
 
             printResult("skip : ", skipTest);
 
-            var wordList = new List<string>() { "ten", "nine", "eight", "seven", "six" };
+            //var wordList = new List<string>() { "ten", "nine", "eight", "seven", "six" };
 
-           
+            var numberStringLookup = new Dictionary<string, int>()
+            {
+                {"zero", 0},
+                {"one", 1},
+                {"two", 2},
+                {"three", 3},
+                {"four", 4},
+                {"five", 5},
+                {"six", 6},
+                {"seven", 7},
+                {"eight", 8},
+                {"nine", 9}
+            };
 
-            
+            var dictionarAverage = numberStringLookup.Values.Average();
+            Console.WriteLine("Dictionary Avg : " + dictionarAverage);
 
         }
     }
