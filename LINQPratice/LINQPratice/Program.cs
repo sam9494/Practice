@@ -35,7 +35,7 @@ namespace LINQPratice
 
             printResult("skip : ", skipTest);
 
-            //var wordList = new List<string>() { "ten", "nine", "eight", "seven", "six" };
+            
 
             var numberStringLookup = new Dictionary<string, int>()
             {
@@ -59,7 +59,15 @@ namespace LINQPratice
             Console.WriteLine("Dictionary Count : " + dictionaryCount);
 
             var dictionaryDistinct = numberStringLookup.Values.Distinct();
-            printResult("Dictionary Distinct", dictionaryDistinct);
+            printResult("Dictionary Distinct : ", dictionaryDistinct);
+
+            var wordList = new List<string>() { "ten", "nine", "eight", "seven", "six" };
+
+            Console.WriteLine("Any : " + wordList.Any());
+
+            var word = "seven";
+            Console.WriteLine(" Contains : " + wordList.Contains(word));
+            Console.WriteLine("First : " + wordList.First() + " Last : " + wordList.Last());
         }
     }
 }
