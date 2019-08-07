@@ -48,12 +48,18 @@ namespace LINQPratice
                 {"six", 6},
                 {"seven", 7},
                 {"eight", 8},
-                {"nine", 9}
+                {"nine", 9},
+                {"ten", 0 }
             };
 
-            var dictionarAverage = numberStringLookup.Values.Average();
-            Console.WriteLine("Dictionary Avg : " + dictionarAverage);
+            var dictionaryAverage = numberStringLookup.Values.Average();
+            Console.WriteLine("Dictionary Avg : " + dictionaryAverage);
 
+            var dictionaryCount = numberStringLookup.Count();
+            Console.WriteLine("Dictionary Count : " + dictionaryCount);
+
+            var dictionaryDistinct = numberStringLookup.Values.Distinct();
+            printResult("Dictionary Distinct", dictionaryDistinct);
         }
     }
 }
