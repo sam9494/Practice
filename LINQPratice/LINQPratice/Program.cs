@@ -24,7 +24,6 @@ namespace LINQPratice
             int[] numArray = {5, 4, 3, 6, 1};
             
             var squaredNumbers = numArray.Select(x => x * x);
-           
             PrintResult("squared Number : ", squaredNumbers);
 
             var squaredNumberSum = squaredNumbers.Sum();
@@ -32,7 +31,6 @@ namespace LINQPratice
             Console.WriteLine("Max : " + squaredNumbers.Max());
 
             var skipTest = squaredNumbers.OrderBy(g => g).Skip(2);
-
             PrintResult("skip : ", skipTest);
 
             var numberStringLookup = new Dictionary<string, int>()
