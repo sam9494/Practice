@@ -10,7 +10,7 @@ namespace LINQPratice
     class Program
     {
 
-        static void printResult(string displayWord, IEnumerable input)
+        static void PrintResult(string displayWord, IEnumerable input)
         {
             foreach (var obj in input)
             {
@@ -25,7 +25,7 @@ namespace LINQPratice
             
             var squaredNumbers = numArray.Select(x => x * x);
            
-            printResult("squared Number : ", squaredNumbers);
+            PrintResult("squared Number : ", squaredNumbers);
 
             var squaredNumberSum = squaredNumbers.Sum();
             Console.WriteLine("Sum : " + squaredNumberSum);
@@ -33,9 +33,7 @@ namespace LINQPratice
 
             var skipTest = squaredNumbers.OrderBy(g => g).Skip(2);
 
-            printResult("skip : ", skipTest);
-
-            
+            PrintResult("skip : ", skipTest);
 
             var numberStringLookup = new Dictionary<string, int>()
             {
@@ -59,15 +57,16 @@ namespace LINQPratice
             Console.WriteLine("Dictionary Count : " + dictionaryCount);
 
             var dictionaryDistinct = numberStringLookup.Values.Distinct();
-            printResult("Dictionary Distinct : ", dictionaryDistinct);
+            PrintResult("Dictionary Distinct : ", dictionaryDistinct);
 
             var wordList = new List<string>() { "ten", "nine", "eight", "seven", "six" };
-
             Console.WriteLine("Any : " + wordList.Any());
 
             var word = "seven";
             Console.WriteLine(" Contains : " + wordList.Contains(word));
             Console.WriteLine("First : " + wordList.First() + " Last : " + wordList.Last());
+
+           
         }
     }
 }
